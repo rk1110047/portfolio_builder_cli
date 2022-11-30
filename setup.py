@@ -9,7 +9,7 @@ setup(
         'aiohttp',
         'requests'
     ],
-    version='0.0.0.0',
+    version='0.0.0',
     entry_points='''    
     [console_scripts]
     portfolio_builder_cli=portfoliobuilder:portfoliobuilder

@@ -11,7 +11,7 @@ setup(
         'requests'
     ],
 
-    version='0.0.5',
+    version='0.0.6',
     long_description_content_type="text/markdown",
     entry_points={
         "console_scripts":["portfoliobuilder=src.portfoliobuilder:portfoliobuilder"]

@@ -45,7 +45,8 @@ def get_stock_price():
     to get stock price
     :return:
     """
-    pass
+    fun     =   """############## KYA HAAL HAI DHIRU BHAIYA #################"""
+    print(fun)
 
 
 

@@ -9,6 +9,7 @@ setup(
         'aiohttp',
         'requests'
     ],
+
     version='0.0.0',
     long_description_content_type="text/markdown",
     entry_points='''    

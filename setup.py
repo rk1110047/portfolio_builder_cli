@@ -2,7 +2,7 @@ from setuptools import setup,find_packages,version
 
 
 setup(
-    name='portfoliobuilder',
+    name='portfolio_builder_cli',
     packages=find_packages(),
     install_requires=[
         'click',

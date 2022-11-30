@@ -10,6 +10,7 @@ setup(
         'requests'
     ],
     version='0.0.0',
+    long_description_content_type="text/markdown",
     entry_points='''    
     [console_scripts]
     portfolio_builder_cli=portfoliobuilder:portfoliobuilder

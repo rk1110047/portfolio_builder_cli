@@ -4,7 +4,7 @@ from setuptools import setup,find_packages,version
 setup(
     name='portfolio_builder_cli',
     packages=find_packages(),
-    email="ravinder.kumar@researchandranking.com",
+    author_email="ravinder.kumar@researchandranking.com",
     author="ravinder",
     install_requires=[
         'click',
@@ -12,12 +12,12 @@ setup(
         'requests'
     ],
 
-    version='0.0.1',
+    version='0.0.2',
     long_description_content_type="text/markdown",
-    data_files=[('portfoliobuilder.py')],
+    data_files=['portfoliobuilder.py'],
     entry_points='''    
     [console_scripts]
-    portfoliobuilder=portfoliobuilder:portfoliobuilder
+    portfoliobuilder=data.portfoliobuilder:portfoliobuilder
     '''
 
 )

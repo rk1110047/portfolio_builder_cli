@@ -15,7 +15,7 @@ CREATE GROUP
 def create_group():
       pass
 
-@click.command(name='create_customized_portfolio')
+@click.command(name='create_customized_portfolio',help="create a customized portfolio.")
 def create_customized_portfolio():
       pass
 
@@ -31,11 +31,11 @@ FETCH GROUP
 def get_group():
       pass
 
-@click.command(name='daily_model_portfolio')
+@click.command(name='daily_model_portfolio',help="get daily model portfolio")
 def get_daily_model_poretfolio():
       pass
 
-@click.command(name='view_breached_stocks')
+@click.command(name='view_breached_stocks',help="list of stocks breached thier target limit.")
 def get_breched_target_range_stocks():
       pass
 

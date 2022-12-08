@@ -1,0 +1,11 @@
+README.md
+setup.py
+portfoliobuilder.egg-info/PKG-INFO
+portfoliobuilder.egg-info/SOURCES.txt
+portfoliobuilder.egg-info/dependency_links.txt
+portfoliobuilder.egg-info/entry_points.txt
+portfoliobuilder.egg-info/requires.txt
+portfoliobuilder.egg-info/top_level.txt
+portfoliobuilder.egg-info/zip-safe
+src/__ini__.py
+src/portfoliobuilder.py
